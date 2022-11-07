@@ -272,6 +272,19 @@ form input[type="email"]{
     cursor: pointer;
 }
 
+.grid-container {
+    background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 70px auto 1fr 100px;
+    grid-template-areas:
+      "header header"
+      "navLeft navRight"
+      "text text"
+      "image image"
+      "footer footer";
+}
+
+
 @media (min-width: 850px){
     header .container{
         flex-direction: row;
@@ -430,8 +443,14 @@ form input[type="email"]{
     }
 }
 
-
-
+.grid-container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 170px auto 100px;
+    grid-template-areas:
+      "navLeft navLeft header header navRight navRight"
+      "text text text image image image"
+      "footer footer footer footer footer footer";
+}
 
 @media (min-width: 1200px) {
     #caracteristicas{
