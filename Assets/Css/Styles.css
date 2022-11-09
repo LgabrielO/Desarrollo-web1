@@ -63,7 +63,7 @@ button {
 
 button:hover {
     background-color: rgb(58, 1, 48);
-
+    transition: background-color 2s;
 }
 
 .container {
