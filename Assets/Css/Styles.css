@@ -113,7 +113,7 @@ header a:hover {
     color: blueviolet;
 }
 
-#card {
+.card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,52 +128,74 @@ header a:hover {
     background-position: center center;
 }
 
-#card h1 {
+.card h1 {
     color: white;
 }
 
-#card button {
+.card button {
     font-size: 1.75em;
 }
 
 
-#card button a {
+.card button a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
 
-#somos-malaquita .container {
+.somos-malaquita .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#somos-malaquita-us .container {
+.somos-malaquita-us .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#nuestro-presupuesto {
+.nuestro-presupuesto {
     background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
 }
+.nuestro-presupuesto-teria {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+}
 
-#nuestro-presupuesto .container {
+.nuestro-presupuesto .container {
+    padding: 150px 12px;
+}
+.nuestro-presupuesto-teria .container {
     padding: 150px 12px;
 }
 
-#nuestro-presupuesto h2 {
+.nuestro-presupuesto h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+.nuestro-presupuesto-teria h2 {
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestro-presupuesto p {
+.nuestro-presupuesto p {
+    display: none;
+}
+.nuestro-presupuesto-teria p {
     display: none;
 }
 
-#nuestro-presupuesto .carta {
+.nuestro-presupuesto .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.nuestro-presupuesto-teria .carta-teria {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -184,41 +206,41 @@ header a:hover {
 .carta:first-child {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("./../img/Mono\ mirando.jpg");
+            rgba(0, 0, 0, 0.5)), url("./../img/Producto\ 1.jpg");
 
 }
 
 .carta:nth-child(2) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("./../img/Perro\ mirando.jpg");
+            rgba(0, 0, 0, 0.5)), url("./../img/Producto\ 2.jpeg");
 }
 
 .carta:nth-child(3) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("./../img/Perro\ con\ lengua.jpg");
+            rgba(0, 0, 0, 0.5)), url("./../img/Granos\ de\ cafe.jpg");
 
 }
 
-#caracteristicas .container {
+.caracteristicas .container {
     text-align: center;
     padding: 250px 12px;
 }
 
-#caracteristicas-us .container {
+.caracteristicas-us .container {
     text-align: center;
     padding: 250px 12px;
 }
 
 
 
-#caracteristicas li {
+.caracteristicas li {
     margin: 16px 0px;
     font-weight: bold;
 }
 
-#caracteristicas-us li {
+.caracteristicas-us li {
     margin: 16px 0px;
     font-weight: bold;
     text-align: center;
@@ -314,21 +336,21 @@ form input[type="email"] {
         padding-right: 20px;
     }
 
-    #card h1 {
+    .card h1 {
         font-size: 5em;
     }
 
-    #somos-malaquita .container {
+    .somos-malaquita .container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-malaquita-us .container {
+    .somos-malaquita-us .container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-malaquita .texto {
+    .somos-malaquita .texto {
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -338,7 +360,7 @@ form input[type="email"] {
         justify-content: center;
     }
 
-    #somos-malaquita-us .texto {
+    .somos-malaquita-us .texto {
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -349,16 +371,16 @@ form input[type="email"] {
         border-right: 2rem;
     }
 
-    #somos-malaquita h2 {
+    .somos-malaquita h2 {
         margin-top: 0px;
     }
 
-    #somos-malaquita-us h2 {
+    .somos-malaquita-us h2 {
         margin-top: 0px;
 
     }
 
-    #somos-malaquita .img-container {
+    .somos-malaquita .img-container {
         background-image: url("./../img/Cielo.jpg");
         background-size: cover;
         background-position: center center;
@@ -366,25 +388,47 @@ form input[type="email"] {
         width: 400px;
     }
 
-    #nuestro-presupuesto .presupuesto {
+    .nuestro-presupuesto .presupuesto {
+        display: flex;
+        justify-content: center;
+    }
+    .nuestro-presupuesto-teria .presupuesto-teria {
         display: flex;
         justify-content: center;
     }
 
-    #nuestro-presupuesto p {
+    .nuestro-presupuesto p {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .nuestro-presupuesto-teria p {
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestro-presupuesto h2 {
+    .nuestro-presupuesto h2 {
+        font-size: 4em;
+    }
+    .nuestro-presupuesto-teria h2 {
         font-size: 4em;
     }
 
-    #nuestro-presupuesto h3 {
+    .nuestro-presupuesto h3 {
+        margin-top: 0;
+    }
+    .nuestro-presupuesto-teria h3 {
         margin-top: 0;
     }
 
-    #nuestro-presupuesto .carta {
+    .nuestro-presupuesto .carta {
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    .nuestro-presupuesto-teria .carta {
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
@@ -396,54 +440,74 @@ form input[type="email"] {
     .carta:first-child {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("./../img/Mono\ mirando.jpg");
+                rgba(0, 0, 0, 0.5)), url("./../img/Producto\ 1.jpg");
 
     }
 
     .carta:nth-child(2) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("./../img/Perro\ mirando.jpg");
+                rgba(0, 0, 0, 0.5)), url("./../img/Producto\ 2.jpeg");
     }
 
     .carta:nth-child(3) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("./../img/Perro\ con\ lengua.jpg");
+                rgba(0, 0, 0, 0.5)), url("./../img/Granos\ de\ cafe.jpg");
 
     }
 
-    #caracteristicas {
+    .carta-teria:first-child {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg");
+
+    }
+
+    .carta-teria:nth-child(2) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg");
+    }
+
+    .carta-teria:nth-child(3) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg");
+
+    }
+
+    .caracteristicas {
         background-image: url("./../img/Logo.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
 
-    #caracteristicas .container {
+    .caracteristicas .container {
         text-align: initial;
     }
 
-    #caracteristicas-us {
+    .caracteristicas-us {
         background-color: rgb(43, 43, 43);
         height: 35rem;
     }
 
-    #caracteristicas-us h3 {
+    .caracteristicas-us h3 {
         font-size: 2em;
         color: blueviolet;
     }
 
-    #caracteristicas-us h3 {
+    .caracteristicas-us h3 {
         text-align: center;
         display: grid
     }
 
-    #caracteristicas ul {
+    .caracteristicas ul {
         margin-left: 100px;
     }
 
-    #caracteristicas-us li {
+    .caracteristicas-us li {
         text-align: center;
         color: white;
 
@@ -466,11 +530,11 @@ form input[type="email"] {
 
 
 @media (min-width: 1200px) {
-    #caracteristicas {
+    .caracteristicas {
         background-position-x: calc(100vw - 800px);
     }
 }
 
-#caracteristicas-us {
+.caracteristicas-us {
     background-position-x: calc(100vw - 800px);
 }
