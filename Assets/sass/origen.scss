@@ -48,6 +48,7 @@ li {
 
 main {
   min-height: 100vh;
+  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
 }
 
 button {
@@ -229,6 +230,33 @@ header a:hover {
     ),
     url("./../img/Granos\ de\ cafe.jpg");
 }
+.carta-teria:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Chocolate.jpg");
+}
+
+.carta-teria:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Donas.jpg");
+}
+
+.carta-teria:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Desayuno.jpg");
+}
+
 
 .caracteristicas .container {
   text-align: center;
@@ -284,7 +312,7 @@ form {
   padding: 16px;
   border-radius: 10px;
   margin: auto;
-  background-color: white;
+  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
 }
 
 form label {

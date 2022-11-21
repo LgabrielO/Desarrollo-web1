@@ -1,54 +1,43 @@
 * {
   box-sizing: border-box;
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
-}
+  margin: 0; }
 
 h1 {
-  font-size: 3.5em;
-}
+  font-size: 3.5em; }
 
 h2 {
-  font-size: 2.7em;
-}
+  font-size: 2.7em; }
 
 h3 {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .contact {
   font-size: 2rem;
-  text-align: center;
-}
+  text-align: center; }
 
 h4 {
-  text-align: center;
-}
+  text-align: center; }
 
 p {
-  font-size: 1.25em;
-}
+  font-size: 1.25em; }
 
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 li {
-  font-size: 1.25em;
-}
+  font-size: 1.25em; }
 
 main {
   min-height: 100vh;
-}
+  background-image: linear-gradient(#4d4d4d, white); }
 
 button {
   font-size: 1.25em;
@@ -58,58 +47,48 @@ button {
   border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: white;
-  background-color: blueviolet;
-}
+  background-color: blueviolet; }
 
 button:hover {
-  background-color: rgb(58, 1, 48);
-  transition: background-color 2s;
-}
+  background-color: #3a0130;
+  transition: background-color 2s; }
 
 .container {
   max-width: 1400px;
-  margin: auto;
-}
+  margin: auto; }
 
 .color-acento {
-  color: blueviolet;
-}
+  color: blueviolet; }
 
 header {
-  background-color: rgb(245, 245, 245);
-}
+  background-color: whitesmoke; }
 
 header .logo {
   margin: 0;
   padding: 25px 30px;
   font-weight: bold;
   color: blueviolet;
-  font-size: 1.6em;
-}
+  font-size: 1.6em; }
 
 header .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 header nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
 
 header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
-}
+  color: black; }
 
 header a:hover {
-  color: blueviolet;
-}
+  color: blueviolet; }
 
 .card {
   display: flex;
@@ -121,173 +100,152 @@ header a:hover {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 .card h1 {
-  color: white;
-}
+  color: white; }
 
 .card button {
-  font-size: 1.75em;
-}
+  font-size: 1.75em; }
 
 .card button a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
-}
+  color: black; }
 
 .somos-malaquita .container {
   text-align: center;
-  padding: 200px 12px;
-}
+  padding: 200px 12px; }
 
 .somos-malaquita-us .container {
   text-align: center;
-  padding: 200px 12px;
-}
+  padding: 200px 12px; }
 
 .nuestro-presupuesto {
-  background-color: rgb(30, 30, 30);
+  background-color: #1e1e1e;
   color: white;
-  text-align: center;
-}
+  text-align: center; }
 
 .nuestro-presupuesto-teria {
-  background-color: rgb(37, 37, 37);
+  background-color: #252525;
   color: white;
-  text-align: center;
-}
+  text-align: center; }
 
 .nuestro-presupuesto .container {
-  padding: 150px 12px;
-}
+  padding: 150px 12px; }
 
 .nuestro-presupuesto-teria .container {
-  padding: 150px 12px;
-}
+  padding: 150px 12px; }
 
 .nuestro-presupuesto h2 {
   margin-top: 0;
-  font-size: 3.2em;
-}
+  font-size: 3.2em; }
 
 .nuestro-presupuesto-teria h2 {
   margin-top: 0;
-  font-size: 3.2em;
-}
+  font-size: 3.2em; }
 
 .nuestro-presupuesto p {
-  display: none;
-}
+  display: none; }
 
 .nuestro-presupuesto-teria p {
-  display: none;
-}
+  display: none; }
 
 .nuestro-presupuesto .carta {
   background-position: center center;
   background-size: cover;
   padding: 50px 0px;
   margin: 30px;
-  border-radius: 15px;
-}
+  border-radius: 15px; }
 
 .nuestro-presupuesto-teria .carta-teria {
   background-position: center center;
   background-size: cover;
   padding: 50px 0px;
   margin: 30px;
-  border-radius: 15px;
-}
+  border-radius: 15px; }
 
 .carta:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
 
 .carta:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
 
 .carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+
+.carta-teria:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+
+.carta-teria:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+
+.carta-teria:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
 
 .caracteristicas .container {
   text-align: center;
-  padding: 250px 12px;
-}
+  padding: 250px 12px; }
 
 .caracteristicas-us .container {
   text-align: center;
-  padding: 250px 12px;
-}
+  padding: 250px 12px; }
 
 .caracteristicas li {
   margin: 16px 0px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .caracteristicas-us li {
   margin: 16px 0px;
   font-weight: bold;
-  text-align: center;
-}
+  text-align: center; }
 
 #gradientTopBottom {
-  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+  background-image: linear-gradient(#4d4d4d, white);
   width: 50%;
   max-width: 600px;
   text-align: initial;
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  justify-content: center; }
 
 footer {
-  background-color: rgb(230, 230, 230);
-}
+  background-color: #e6e6e6; }
 
 footer p {
   margin: 0;
   padding: 12px;
-  color: rgb(100, 100, 100);
-}
+  color: #646464; }
 
 footer .container {
   height: 150px;
   display: flex;
   justify-content: center;
-  align-items: Center;
-}
+  align-items: Center; }
 
 form {
   width: 300px;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
-  background-color: white;
-}
+  background-image: linear-gradient(#4d4d4d, white); }
 
 form label {
   width: 72px;
   font-weight: bold;
-  display: inline-block;
-}
+  display: inline-block; }
 
-form input[type=text],
-form input[type=email] {
+form input[type="text"],
+form input[type="email"] {
   width: 180px;
   padding: 3px 10px;
   border: 1 px solid #f6f6f6;
   border-radius: 3px;
   background-color: #f6f6f6;
   margin: 8px 0;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .submitButton {
   width: 100%;
@@ -295,41 +253,33 @@ form input[type=email] {
   margin-top: 2rem;
   background-color: blueviolet;
   border-radius: 5px;
-  color: white;
-}
+  color: white; }
 
 .submitButton:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .grid-container {
-  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+  background-image: linear-gradient(#4d4d4d, white);
   grid-template-columns: 50% 50%;
   grid-template-rows: 100px 70px auto 1fr 100px;
-  grid-template-areas: "header header" "navLeft navRight" "text text" "image image" "footer footer";
-}
+  grid-template-areas: "header header" "navLeft navRight" "text text" "image image" "footer footer"; }
 
 @media (min-width: 850px) {
   header .container {
     flex-direction: row;
-    justify-content: space-between;
-  }
+    justify-content: space-between; }
   header nav {
     flex-direction: row;
     padding-bottom: 0;
-    padding-right: 20px;
-  }
+    padding-right: 20px; }
   .card h1 {
-    font-size: 5em;
-  }
+    font-size: 5em; }
   .somos-malaquita .container {
     display: flex;
-    justify-content: space-evenly;
-  }
+    justify-content: space-evenly; }
   .somos-malaquita-us .container {
     display: flex;
-    justify-content: space-evenly;
-  }
+    justify-content: space-evenly; }
   .somos-malaquita .texto {
     width: 50%;
     max-width: 600px;
@@ -337,8 +287,7 @@ form input[type=email] {
     padding-left: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
+    justify-content: center; }
   .somos-malaquita-us .texto {
     width: 50%;
     max-width: 600px;
@@ -347,127 +296,96 @@ form input[type=email] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-right: 2rem;
-  }
+    border-right: 2rem; }
   .somos-malaquita h2 {
-    margin-top: 0px;
-  }
+    margin-top: 0px; }
   .somos-malaquita-us h2 {
-    margin-top: 0px;
-  }
+    margin-top: 0px; }
   .somos-malaquita .img-container {
     background-image: url("./../img/Cielo.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
-    width: 400px;
-  }
+    width: 400px; }
   .nuestro-presupuesto .presupuesto {
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center; }
   .nuestro-presupuesto-teria .presupuesto-teria {
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center; }
   .nuestro-presupuesto p {
     display: block;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
   .nuestro-presupuesto-teria p {
     display: block;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
   .nuestro-presupuesto h2 {
-    font-size: 4em;
-  }
+    font-size: 4em; }
   .nuestro-presupuesto-teria h2 {
-    font-size: 4em;
-  }
+    font-size: 4em; }
   .nuestro-presupuesto h3 {
-    margin-top: 0;
-  }
+    margin-top: 0; }
   .nuestro-presupuesto-teria h3 {
-    margin-top: 0;
-  }
+    margin-top: 0; }
   .nuestro-presupuesto .carta {
     padding: 50px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position-y: 0;
-    background-color: rgb(50, 50, 50);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }
+    background-color: #323232;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
   .nuestro-presupuesto-teria .carta {
     padding: 50px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position-y: 0;
-    background-color: rgb(50, 50, 50);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }
+    background-color: #323232;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
   .carta:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
   .carta:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
   .carta:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
   .carta-teria:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
   .carta-teria:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
   .carta-teria:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg");
-  }
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
   .caracteristicas {
     background-image: url("./../img/Logo.jpg");
     background-repeat: no-repeat;
     background-size: 500px 400px;
-    background-position: calc(100vw - 500px) 120px;
-  }
+    background-position: calc(100vw - 500px) 120px; }
   .caracteristicas .container {
-    text-align: initial;
-  }
+    text-align: initial; }
   .caracteristicas-us {
-    background-color: rgb(43, 43, 43);
-    height: 35rem;
-  }
+    background-color: #2b2b2b;
+    height: 35rem; }
   .caracteristicas-us h3 {
     font-size: 2em;
-    color: blueviolet;
-  }
+    color: blueviolet; }
   .caracteristicas-us h3 {
     text-align: center;
-    display: grid;
-  }
+    display: grid; }
   .caracteristicas ul {
-    margin-left: 100px;
-  }
+    margin-left: 100px; }
   .caracteristicas-us li {
     text-align: center;
-    color: white;
-  }
+    color: white; }
   footer .container {
-    justify-content: center;
-  }
-}
+    justify-content: center; } }
+
 .grid-container {
-  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+  background-image: linear-gradient(#4d4d4d, white);
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 170px auto 100px;
-  grid-template-areas: "navLeft navLeft header header navRight navRight" "text text text image image image" "footer footer footer footer footer footer";
-}
+  grid-template-areas: "navLeft navLeft header header navRight navRight" "text text text image image image" "footer footer footer footer footer footer"; }
 
 @media (min-width: 1200px) {
   .caracteristicas {
-    background-position-x: calc(100vw - 800px);
-  }
-}
+    background-position-x: calc(100vw - 800px); } }
+
 .caracteristicas-us {
-  background-position-x: calc(100vw - 800px);
-}/*# sourceMappingURL=origen.css.map */
+  background-position-x: calc(100vw - 800px); }
