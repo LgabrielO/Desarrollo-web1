@@ -78,40 +78,34 @@ button:hover {
 
 header {
   background-color: rgb(245, 245, 245);
+  .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  a:hover {
+    color: blueviolet;
+  }
 }
-
-header .logo {
-  margin: 0;
-  padding: 25px 30px;
-  font-weight: bold;
-  color: blueviolet;
-  font-size: 1.6em;
-}
-
-header .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-header nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-header a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-header a:hover {
-  color: blueviolet;
-}
-
 .card {
   display: flex;
   align-items: center;
