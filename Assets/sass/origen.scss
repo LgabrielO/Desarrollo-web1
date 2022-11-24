@@ -6,78 +6,36 @@
 
 html {
   scroll-behavior: smooth;
-}
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    h1 {
+      font-size: 3.5em;
+    }
+    h2 {
+      font-size: 2.7em;
+    }
+    h3 {
+      font-size: 2em;
+    }
+    h4 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+    }
 
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
+    li {
+      font-size: 1.25em;
+    }
+  }
 }
-
-h1 {
-  font-size: 3.5em;
-}
-
-h2 {
-  font-size: 2.7em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-.contact {
-  font-size: 2rem;
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-}
-
-p {
-  font-size: 1.25em;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  font-size: 1.25em;
-}
-
-main {
-  min-height: 100vh;
-  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
-}
-
-button {
-  font-size: 1.25em;
-  font-weight: bold;
-  padding: 10px 30px;
-  border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  color: white;
-  background-color: blueviolet;
-}
-
-button:hover {
-  background-color: rgb(58, 1, 48);
-  transition: background-color 2s;
-}
-
-.container {
-  max-width: 1400px;
-  margin: auto;
-}
-
-.color-acento {
-  color: blueviolet;
-}
-
+//Header
 header {
   background-color: rgb(245, 245, 245);
+  .p {
+    font-size: 1.25em;
+  }
   .logo {
     margin: 0;
     padding: 25px 30px;
@@ -106,6 +64,19 @@ header {
     color: blueviolet;
   }
 }
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-acento {
+  color: blueviolet;
+}
 .card {
   display: flex;
   align-items: center;
@@ -122,7 +93,35 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  h1 {
+    color: white;
+  }
+  button {
+    font-size: 1.75em;
+  }
 }
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+  :hover {
+    background-color: rgb(58, 1, 48);
+    transition: background-color 2s;
+  }
+  a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+}
+
 .card-puesto {
   display: flex;
   align-items: center;
@@ -139,31 +138,15 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-
-.card h1 {
-  color: white;
-}
-
-.card button {
-  font-size: 1.75em;
-}
-.card-puesto button {
-  font-size: 1.75em;
-}
-
-.card button a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-.card-puesto button a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
+  button {
+    font-size: 1.75em;
+  }
+  a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
 }
 
 .somos-malaquita .container {
@@ -177,52 +160,26 @@ header {
 }
 
 .nuestro-presupuesto {
-  background-color: rgb(30, 30, 30);
-  color: white;
-  text-align: center;
-}
-.nuestro-presupuesto-teria {
   background-color: rgb(37, 37, 37);
   color: white;
   text-align: center;
-}
-
-.nuestro-presupuesto .container {
-  padding: 150px 12px;
-}
-.nuestro-presupuesto-teria .container {
-  padding: 150px 12px;
-}
-
-.nuestro-presupuesto h2 {
-  margin-top: 0;
-  font-size: 3.2em;
-}
-.nuestro-presupuesto-teria h2 {
-  margin-top: 0;
-  font-size: 3.2em;
-}
-
-.nuestro-presupuesto p {
-  display: none;
-}
-.nuestro-presupuesto-teria p {
-  display: none;
-}
-
-.nuestro-presupuesto .carta {
-  background-position: center center;
-  background-size: cover;
-  padding: 50px 0px;
-  margin: 30px;
-  border-radius: 15px;
-}
-.nuestro-presupuesto-teria .carta-teria {
-  background-position: center center;
-  background-size: cover;
-  padding: 50px 0px;
-  margin: 30px;
-  border-radius: 15px;
+  .container {
+    padding: 150px 12px;
+  }
+  h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
+  .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+  }
+  p {
+    display: none;
+  }
 }
 
 .carta:first-child {
@@ -251,6 +208,29 @@ header {
     ),
     url("./../img/Granos\ de\ cafe.jpg");
 }
+
+.nuestro-presupuesto-teria {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  .container {
+    padding: 150px 12px;
+  }
+  h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
+  .carta-teria {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+  }
+  p {
+    display: none;
+  }
+}
 .carta-teria:first-child {
   background-image: linear-gradient(
       0deg,
@@ -278,28 +258,24 @@ header {
     url("./../img/Desayuno.jpg");
 }
 
-
 .caracteristicas .container {
   text-align: center;
   padding: 250px 12px;
+  li {
+    margin: 16px 0px;
+    font-weight: bold;
+  }
 }
 
 .caracteristicas-us .container {
   text-align: center;
   padding: 250px 12px;
+  li {
+    margin: 16px 0px;
+    font-weight: bold;
+    text-align: center;
+  }
 }
-
-.caracteristicas li {
-  margin: 16px 0px;
-  font-weight: bold;
-}
-
-.caracteristicas-us li {
-  margin: 16px 0px;
-  font-weight: bold;
-  text-align: center;
-}
-
 #gradientTopBottom {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   width: 50%;
@@ -313,19 +289,17 @@ header {
 
 footer {
   background-color: rgb(230, 230, 230);
-}
-
-footer p {
-  margin: 0;
-  padding: 12px;
-  color: rgb(100, 100, 100);
-}
-
-footer .container {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: Center;
+  .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+  }
+  p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+  }
 }
 
 form {
@@ -334,23 +308,25 @@ form {
   border-radius: 10px;
   margin: auto;
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
-}
-
-form label {
-  width: 72px;
-  font-weight: bold;
-  display: inline-block;
-}
-
-form input[type="text"],
-form input[type="email"] {
-  width: 180px;
-  padding: 3px 10px;
-  border: 1 px solid #f6f6f6;
-  border-radius: 3px;
-  background-color: #f6f6f6;
-  margin: 8px 0;
-  display: inline-block;
+  .contact {
+    font-size: 2rem;
+    text-align: center;
+  }
+  label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1 px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+  }
 }
 
 .submitButton {
@@ -360,12 +336,10 @@ form input[type="email"] {
   background-color: blueviolet;
   border-radius: 5px;
   color: white;
+  :hover {
+    cursor: pointer;
+  }
 }
-
-.submitButton:hover {
-  cursor: pointer;
-}
-
 .grid-container {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   grid-template-columns: 50% 50%;
@@ -378,116 +352,90 @@ form input[type="email"] {
     "footer footer";
 }
 
+// 850
+
 @media (min-width: 850px) {
   header .container {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  header nav {
-    flex-direction: row;
-    padding-bottom: 0;
-    padding-right: 20px;
+    nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
   }
 
   .card h1 {
     font-size: 5em;
   }
 
-  .somos-malaquita .container {
-    display: flex;
-    justify-content: space-evenly;
+  .somos-malaquita {
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .img-container {
+      background-image: url("./../img/Cielo.jpg");
+      background-size: cover;
+      background-position: center center;
+      height: 500px;
+      width: 400px;
+    }
+    .texto {
+      width: 50%;
+      max-width: 600px;
+      text-align: initial;
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h2 {
+      margin-top: 0px;
+    }
   }
 
-  .somos-malaquita-us .container {
-    display: flex;
-    justify-content: space-evenly;
+  .somos-malaquita-us {
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .texto {
+      width: 50%;
+      max-width: 600px;
+      text-align: initial;
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 2rem;
+    }
+    h2 {
+      margin-top: 0px;
+    }
   }
 
-  .somos-malaquita .texto {
-    width: 50%;
-    max-width: 600px;
-    text-align: initial;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .somos-malaquita-us .texto {
-    width: 50%;
-    max-width: 600px;
-    text-align: initial;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-right: 2rem;
-  }
-
-  .somos-malaquita h2 {
-    margin-top: 0px;
-  }
-
-  .somos-malaquita-us h2 {
-    margin-top: 0px;
-  }
-
-  .somos-malaquita .img-container {
-    background-image: url("./../img/Cielo.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 500px;
-    width: 400px;
-  }
-
-  .nuestro-presupuesto .presupuesto {
-    display: flex;
-    justify-content: center;
-  }
-  .nuestro-presupuesto-teria .presupuesto-teria {
+  .nuestro-presupuesto.presupuesto {
     display: flex;
     justify-content: center;
-  }
-
-  .nuestro-presupuesto p {
-    display: block;
-    margin-bottom: 30px;
-  }
-  .nuestro-presupuesto-teria p {
-    display: block;
-    margin-bottom: 30px;
-  }
-
-  .nuestro-presupuesto h2 {
-    font-size: 4em;
-  }
-  .nuestro-presupuesto-teria h2 {
-    font-size: 4em;
-  }
-
-  .nuestro-presupuesto h3 {
-    margin-top: 0;
-  }
-  .nuestro-presupuesto-teria h3 {
-    margin-top: 0;
-  }
-
-  .nuestro-presupuesto .carta {
-    padding: 50px;
-    background-size: 100% 150px;
-    background-repeat: no-repeat;
-    background-position-y: 0;
-    background-color: rgba(50, 50, 50, 1);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }
-  .nuestro-presupuesto-teria .carta {
-    padding: 50px;
-    background-size: 100% 150px;
-    background-repeat: no-repeat;
-    background-position-y: 0;
-    background-color: rgba(50, 50, 50, 1);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    .carta {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgba(50, 50, 50, 1);
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      display: block;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 4em;
+    }
+    h3 {
+      margin-top: 0;
+    }
   }
 
   .carta:first-child {
@@ -515,6 +463,29 @@ form input[type="email"] {
         rgba(0, 0, 0, 0.5)
       ),
       url("./../img/Granos\ de\ cafe.jpg");
+  }
+
+  .nuestro-presupuesto-teria .presupuesto-teria {
+    display: flex;
+    justify-content: center;
+    .carta-teria {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgba(50, 50, 50, 1);
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      display: block;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 4em;
+    }
+    h3 {
+      margin-top: 0;
+    }
   }
 
   .carta-teria:first-child {
@@ -549,34 +520,29 @@ form input[type="email"] {
     background-repeat: no-repeat;
     background-size: 500px 400px;
     background-position: calc(100vw - 500px) 120px;
-  }
-
-  .caracteristicas .container {
-    text-align: initial;
+    .container {
+      text-align: initial;
+    }
+    h3 {
+      text-align: center;
+      display: grid;
+    }
+    ul {
+      margin-left: 100px;
+    }
   }
 
   .caracteristicas-us {
     background-color: rgb(43, 43, 43);
     height: 35rem;
-  }
-
-  .caracteristicas-us h3 {
-    font-size: 2em;
-    color: blueviolet;
-  }
-
-  .caracteristicas-us h3 {
-    text-align: center;
-    display: grid;
-  }
-
-  .caracteristicas ul {
-    margin-left: 100px;
-  }
-
-  .caracteristicas-us li {
-    text-align: center;
-    color: white;
+    h3 {
+      font-size: 2em;
+      color: blueviolet;
+    }
+    li {
+      text-align: center;
+      color: white;
+    }
   }
 
   footer .container {
