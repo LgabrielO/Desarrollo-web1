@@ -1,26 +1,45 @@
+@import "utilities/variable";
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+@if $vista ==desktop {
+  h1 {
+    color: whitesmoke;
+  }
+} @else {
+  h1 {
+    color: gray;
+  }
+}
+
+
 html {
   scroll-behavior: smooth;
+
   body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+
     h1 {
       font-size: 3.5em;
     }
+
     h2 {
       font-size: 2.7em;
     }
+
     h3 {
       font-size: 2em;
     }
+
     h4 {
       text-align: center;
     }
+
     ul {
       list-style: none;
     }
@@ -30,12 +49,15 @@ html {
     }
   }
 }
+
 //Header
 header {
-  background-color: rgb(245, 245, 245);
+  background-color: $color-secondary;
+
   .p {
     font-size: 1.25em;
   }
+
   .logo {
     margin: 0;
     padding: 25px 30px;
@@ -43,23 +65,27 @@ header {
     color: blueviolet;
     font-size: 1.6em;
   }
+
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
   }
+
   a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: $color-primary;
   }
+
   a:hover {
     color: blueviolet;
   }
@@ -69,6 +95,7 @@ main {
   min-height: 100vh;
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
 }
+
 .container {
   max-width: 1400px;
   margin: auto;
@@ -77,6 +104,7 @@ main {
 .color-acento {
   color: blueviolet;
 }
+
 .card {
   display: flex;
   align-items: center;
@@ -93,9 +121,11 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
   h1 {
     color: white;
   }
+
   button {
     font-size: 1.75em;
   }
@@ -109,11 +139,13 @@ button {
   border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: white;
-  background-color: blueviolet;
+  background-color: map-get($map: $estilos, $key: color);
+
   :hover {
     background-color: rgb(58, 1, 48);
     transition: background-color 2s;
   }
+
   a {
     padding: 5px 12px;
     text-decoration: none;
@@ -138,9 +170,11 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
   button {
     font-size: 1.75em;
   }
+
   a {
     padding: 5px 12px;
     text-decoration: none;
@@ -163,13 +197,16 @@ button {
   background-color: rgb(37, 37, 37);
   color: white;
   text-align: center;
+
   .container {
     padding: 150px 12px;
   }
+
   h2 {
     margin-top: 0;
     font-size: 3.2em;
   }
+
   .carta {
     background-position: center center;
     background-size: cover;
@@ -177,6 +214,7 @@ button {
     margin: 30px;
     border-radius: 15px;
   }
+
   p {
     display: none;
   }
@@ -213,13 +251,16 @@ button {
   background-color: rgb(37, 37, 37);
   color: white;
   text-align: center;
+
   .container {
     padding: 150px 12px;
   }
+
   h2 {
     margin-top: 0;
     font-size: 3.2em;
   }
+
   .carta-teria {
     background-position: center center;
     background-size: cover;
@@ -227,10 +268,12 @@ button {
     margin: 30px;
     border-radius: 15px;
   }
+
   p {
     display: none;
   }
 }
+
 .carta-teria:first-child {
   background-image: linear-gradient(
       0deg,
@@ -261,6 +304,7 @@ button {
 .caracteristicas .container {
   text-align: center;
   padding: 250px 12px;
+
   li {
     margin: 16px 0px;
     font-weight: bold;
@@ -270,12 +314,14 @@ button {
 .caracteristicas-us .container {
   text-align: center;
   padding: 250px 12px;
+
   li {
     margin: 16px 0px;
     font-weight: bold;
     text-align: center;
   }
 }
+
 #gradientTopBottom {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   width: 50%;
@@ -289,12 +335,14 @@ button {
 
 footer {
   background-color: rgb(230, 230, 230);
+
   .container {
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: Center;
   }
+
   p {
     margin: 0;
     padding: 12px;
@@ -308,15 +356,18 @@ form {
   border-radius: 10px;
   margin: auto;
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
+
   .contact {
     font-size: 2rem;
     text-align: center;
   }
+
   label {
     width: 72px;
     font-weight: bold;
     display: inline-block;
   }
+
   input[type="text"],
   input[type="email"] {
     width: 180px;
@@ -336,10 +387,12 @@ form {
   background-color: blueviolet;
   border-radius: 5px;
   color: white;
+
   :hover {
     cursor: pointer;
   }
 }
+
 .grid-container {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   grid-template-columns: 50% 50%;
@@ -358,6 +411,7 @@ form {
   header .container {
     flex-direction: row;
     justify-content: space-between;
+
     nav {
       flex-direction: row;
       padding-bottom: 0;
@@ -374,6 +428,7 @@ form {
       display: flex;
       justify-content: space-evenly;
     }
+
     .img-container {
       background-image: url("./../img/Cielo.jpg");
       background-size: cover;
@@ -381,6 +436,7 @@ form {
       height: 500px;
       width: 400px;
     }
+
     .texto {
       width: 50%;
       max-width: 600px;
@@ -390,6 +446,7 @@ form {
       flex-direction: column;
       justify-content: center;
     }
+
     h2 {
       margin-top: 0px;
     }
@@ -400,6 +457,7 @@ form {
       display: flex;
       justify-content: space-evenly;
     }
+
     .texto {
       width: 50%;
       max-width: 600px;
@@ -410,6 +468,7 @@ form {
       justify-content: center;
       border-right: 2rem;
     }
+
     h2 {
       margin-top: 0px;
     }
@@ -418,6 +477,7 @@ form {
   .nuestro-presupuesto.presupuesto {
     display: flex;
     justify-content: center;
+
     .carta {
       padding: 50px;
       background-size: 100% 150px;
@@ -426,13 +486,16 @@ form {
       background-color: rgba(50, 50, 50, 1);
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
+
     p {
       display: block;
       margin-bottom: 30px;
     }
+
     h2 {
       font-size: 4em;
     }
+
     h3 {
       margin-top: 0;
     }
@@ -468,6 +531,7 @@ form {
   .nuestro-presupuesto-teria .presupuesto-teria {
     display: flex;
     justify-content: center;
+
     .carta-teria {
       padding: 50px;
       background-size: 100% 150px;
@@ -476,13 +540,16 @@ form {
       background-color: rgba(50, 50, 50, 1);
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
+
     p {
       display: block;
       margin-bottom: 30px;
     }
+
     h2 {
       font-size: 4em;
     }
+
     h3 {
       margin-top: 0;
     }
@@ -520,13 +587,16 @@ form {
     background-repeat: no-repeat;
     background-size: 500px 400px;
     background-position: calc(100vw - 500px) 120px;
+
     .container {
       text-align: initial;
     }
+
     h3 {
       text-align: center;
       display: grid;
     }
+
     ul {
       margin-left: 100px;
     }
@@ -535,10 +605,12 @@ form {
   .caracteristicas-us {
     background-color: rgb(43, 43, 43);
     height: 35rem;
+
     h3 {
       font-size: 2em;
       color: blueviolet;
     }
+
     li {
       text-align: center;
       color: white;
