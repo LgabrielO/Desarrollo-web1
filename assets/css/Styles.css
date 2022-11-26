@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  color: whitesmoke; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.contact {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+main {
+    min-height: 100vh;
+}
+
+button {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(101, 33, 165);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {
+    color: blueviolet;
+}
+
+header {
+  background-color: whitesmoke; }
+  header .p {
+    font-size: 1.25em; }
+  header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em; }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px; }
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black; }
+  header a:hover {
+    color: blueviolet; }
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(#4d4d4d, white); }
+
+.container {
+  max-width: 1400px;
+  margin: auto; }
+
+.color-acento {
+  color: blueviolet; }
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .card h1 {
+    color: white; }
+  .card button {
+    font-size: 1.75em; }
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet; }
+  button :hover {
+    background-color: #3a0130;
+    transition: background-color 2s; }
+  button a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black; }
+
+.card-puesto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Tickets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .card-puesto button {
+    font-size: 1.75em; }
+  .card-puesto a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black; }
+
+.somos-malaquita .container {
+  text-align: center;
+  padding: 200px 12px; }
+
+.somos-malaquita-us .container {
+  text-align: center;
+  padding: 200px 12px; }
+
+.nuestro-presupuesto {
+  background-color: #252525;
+  color: white;
+  text-align: center; }
+  .nuestro-presupuesto .container {
+    padding: 150px 12px; }
+  .nuestro-presupuesto h2 {
+    margin-top: 0;
+    font-size: 3.2em; }
+  .nuestro-presupuesto .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px; }
+  .nuestro-presupuesto p {
+    display: none; }
+
+.carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+
+.nuestro-presupuesto-teria {
+  background-color: #252525;
+  color: white;
+  text-align: center; }
+  .nuestro-presupuesto-teria .container {
+    padding: 150px 12px; }
+  .nuestro-presupuesto-teria h2 {
+    margin-top: 0;
+    font-size: 3.2em; }
+  .nuestro-presupuesto-teria .carta-teria {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px; }
+  .nuestro-presupuesto-teria p {
+    display: none; }
+
+.carta-teria:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+
+.carta-teria:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+
+.carta-teria:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
+
+.caracteristicas .container {
+  text-align: center;
+  padding: 250px 12px; }
+  .caracteristicas .container li {
+    margin: 16px 0px;
+    font-weight: bold; }
+
+.caracteristicas-us .container {
+  text-align: center;
+  padding: 250px 12px; }
+  .caracteristicas-us .container li {
+    margin: 16px 0px;
+    font-weight: bold;
+    text-align: center; }
+
+#gradientTopBottom {
+  background-image: linear-gradient(#4d4d4d, white);
+  width: 50%;
+  max-width: 600px;
+  text-align: initial;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+footer {
+  background-color: #e6e6e6; }
+  footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: Center; }
+  footer p {
+    margin: 0;
+    padding: 12px;
+    color: #646464; }
+
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-image: linear-gradient(#4d4d4d, white); }
+  form .contact {
+    font-size: 2rem;
+    text-align: center; }
+  form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block; }
+  form input[type="text"],
+  form input[type="email"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1 px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block; }
+
+.submitButton {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 2rem;
+  background-color: blueviolet;
+  border-radius: 5px;
+  color: white; }
+  .submitButton :hover {
+    cursor: pointer; }
+
+.grid-container {
+  background-image: linear-gradient(#4d4d4d, white);
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 70px auto 1fr 100px;
+  grid-template-areas: "header header"
+ "navLeft navRight"
+ "text text"
+ "image image"
+ "footer footer"; }
+
+@media (min-width: 850px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between; }
+    header .container nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px; }
+  .card h1 {
+    font-size: 5em; }
+  .somos-malaquita .container {
+    display: flex;
+    justify-content: space-evenly; }
+  .somos-malaquita .img-container {
+    background-image: url("./../img/Cielo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; }
+  .somos-malaquita .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .somos-malaquita h2 {
+    margin-top: 0px; }
+  .somos-malaquita-us .container {
+    display: flex;
+    justify-content: space-evenly; }
+  .somos-malaquita-us .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2rem; }
+  .somos-malaquita-us h2 {
+    margin-top: 0px; }
+  .nuestro-presupuesto.presupuesto {
+    display: flex;
+    justify-content: center; }
+    .nuestro-presupuesto.presupuesto .carta {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: #323232;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+    .nuestro-presupuesto.presupuesto p {
+      display: block;
+      margin-bottom: 30px; }
+    .nuestro-presupuesto.presupuesto h2 {
+      font-size: 4em; }
+    .nuestro-presupuesto.presupuesto h3 {
+      margin-top: 0; }
+  .carta:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
+  .carta:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
+  .carta:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+  .nuestro-presupuesto-teria .presupuesto-teria {
+    display: flex;
+    justify-content: center; }
+    .nuestro-presupuesto-teria .presupuesto-teria .carta-teria {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: #323232;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+    .nuestro-presupuesto-teria .presupuesto-teria p {
+      display: block;
+      margin-bottom: 30px; }
+    .nuestro-presupuesto-teria .presupuesto-teria h2 {
+      font-size: 4em; }
+    .nuestro-presupuesto-teria .presupuesto-teria h3 {
+      margin-top: 0; }
+  .carta-teria:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+  .carta-teria:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+  .carta-teria:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
+  .caracteristicas {
+    background-image: url("./../img/Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 500px) 120px; }
+    .caracteristicas .container {
+      text-align: initial; }
+    .caracteristicas h3 {
+      text-align: center;
+      display: grid; }
+    .caracteristicas ul {
+      margin-left: 100px; }
+  .caracteristicas-us {
+    background-color: #2b2b2b;
+    height: 35rem; }
+    .caracteristicas-us h3 {
+      font-size: 2em;
+      color: blueviolet; }
+    .caracteristicas-us li {
+      text-align: center;
+      color: white; }
+  footer .container {
+    justify-content: center; } }
+
+.grid-container {
+  background-image: linear-gradient(#4d4d4d, white);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 170px auto 100px;
+  grid-template-areas: "navLeft navLeft header header navRight navRight"
+ "text text text image image image"
+ "footer footer footer footer footer footer"; }
+
+@media (min-width: 1200px) {
+  .caracteristicas {
+    background-position-x: calc(100vw - 800px); } }
+
+.caracteristicas-us {
+  background-position-x: calc(100vw - 800px); }
