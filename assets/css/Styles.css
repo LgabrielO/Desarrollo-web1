@@ -7,74 +7,22 @@ h1 {
   color: whitesmoke; }
 
 html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-
-h1 {
-    font-size: 3.5em;
-}
-
-h2 {
-    font-size: 2.7em;
-}
-
-h3 {
-    font-size: 2em;
-}
-
-.contact {
-    font-size: 2rem;
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-p {
-    font-size: 1.25em;
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    font-size: 1.25em;
-}
-
-main {
-    min-height: 100vh;
-}
-
-button {
-    font-size: 1.25em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    background-color: blueviolet;
-}
-
-button:hover {
-    background-color: rgb(101, 33, 165);
-}
-
-.container {
-    max-width: 1400px;
-    margin: auto;
-}
-
-.color-acento {
-    color: blueviolet;
-}
+  scroll-behavior: smooth; }
+  html body {
+    font-family: "Roboto", sans-serif;
+    margin: 0; }
+    html body h1 {
+      font-size: 3.5em; }
+    html body h2 {
+      font-size: 2.7em; }
+    html body h3 {
+      font-size: 2em; }
+    html body h4 {
+      text-align: center; }
+    html body ul {
+      list-style: none; }
+    html body li {
+      font-size: 1.25em; }
 
 header {
   background-color: whitesmoke; }
