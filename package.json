@@ -1,0 +1,31 @@
+{
+  "name": "preentrega-onetto-2",
+  "version": "1.0.0",
+  "description": "Preentrega",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/sass/origen.scss assets/css/Styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LgabrielO/Desarrollo-web1.git"
+  },
+  "keywords": [
+    "node",
+    "sass",
+    "class",
+    "example"
+  ],
+  "author": "Onetto Leonardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LgabrielO/Desarrollo-web1/issues"
+  },
+  "homepage": "https://github.com/LgabrielO/Desarrollo-web1#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
