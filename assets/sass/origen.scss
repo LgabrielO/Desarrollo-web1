@@ -1,6 +1,4 @@
 @import "utilities/variable";
-//@import "utilities/maps";
-//@import "utilities/mixins";
 
 * {
   box-sizing: border-box;
@@ -56,12 +54,12 @@ html {
 header {
   background-color: $color-secondary;
 
-  p {
-  font-size: 1.25em;
+  &p {
+    font-size: 1.25em;
   }
 
   .logo {
-  margin: 0;
+    margin: 0;
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
@@ -74,21 +72,21 @@ header {
     align-items: center;
   }
 
-  .nav {
+  nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
   }
 
-  .a {
+  a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: $color-primary;
   }
-  
-  :hover {
+
+  a:hover {
     color: blueviolet;
   }
 }
@@ -124,11 +122,11 @@ main {
   background-size: cover;
   background-position: center center;
 
-  .h1 {
+  &h1 {
     color: white;
   }
 
-  .button {
+  &button {
     font-size: 1.75em;
   }
 }
@@ -143,7 +141,7 @@ button {
   color: white;
   background-color: map-get($map: $estilos, $key: color);
 
-  :hover {
+  &:hover {
     background-color: rgb(58, 1, 48);
     transition: background-color 2s;
   }
@@ -173,11 +171,11 @@ button {
   background-size: cover;
   background-position: center center;
 
-  button {
+  &button {
     font-size: 1.75em;
   }
 
-  a {
+  &a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
@@ -200,27 +198,27 @@ button {
   color: white;
   text-align: center;
 
-  .container {
+  &container {
     padding: 150px 12px;
   }
 
-  h2 {
+  &h2 {
     margin-top: 0;
     font-size: 3.2em;
   }
-
+}
   .carta {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
     margin: 30px;
     border-radius: 15px;
-  }
-
-  p {
+  
+  &p {
     display: none;
   }
-  .carta:first-child {
+  
+  &:first-child {
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.5),
@@ -229,7 +227,7 @@ button {
       url("./../img/Producto\ 1.jpg");
   }
   
-  .carta:nth-child(2) {
+  &:nth-child(2) {
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.5),
@@ -238,15 +236,15 @@ button {
       url("./../img/Producto\ 2.jpeg");
   }
   
-  .carta:nth-child(3) {
+  &:nth-child(3) {
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
       url("./../img/Granos\ de\ cafe.jpg");
-  }
-}
+  }}
+  
 
 
 
@@ -255,55 +253,54 @@ button {
   color: white;
   text-align: center;
 
-  .container {
+  &container {
     padding: 150px 12px;
   }
 
-  h2 {
+  &h2 {
     margin-top: 0;
     font-size: 3.2em;
   }
-
+}
   .carta-teria {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
     margin: 30px;
     border-radius: 15px;
-  }
+  
 
   p {
     display: none;
   }
-  .carta-teria:first-child {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("./../img/Chocolate.jpg");
-  }
-  
-  .carta-teria:nth-child(2) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("./../img/Donas.jpg");
-  }
-  
-  .carta-teria:nth-child(3) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("./../img/Desayuno.jpg");
-  }
+
+
+&:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Chocolate.jpg");
 }
 
+&:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Donas.jpg");
+}
 
+&:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./../img/Desayuno.jpg");
+}}
 
 .caracteristicas .container {
   text-align: center;
@@ -316,23 +313,19 @@ button {
 }
 
 .caracteristicas-us {
-  background-color: rgb(43, 43, 43);
+height: auto;
 .container {
+  background-color: rgb(43, 43, 43);
   text-align: center;
   padding: 250px 12px;
-  background-color: rgb(43, 43, 43);
 
   li {
     margin: 16px 0px;
     font-weight: bold;
     text-align: center;
   }
-  h3 {
-      font-size: 2em;
-      color: blueviolet;
-    }
-}}
-
+}
+}
 #gradientTopBottom {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   width: 50%;
@@ -347,7 +340,7 @@ button {
 footer {
   background-color: rgb(230, 230, 230);
 
-.container {
+  .container {
     height: 150px;
     display: flex;
     justify-content: center;
