@@ -312,19 +312,19 @@ button {
 }
 
 .caracteristicas-us {
-height: auto;
-.container {
   background-color: rgb(43, 43, 43);
+.container {
   text-align: center;
   padding: 250px 12px;
+  background-color: rgb(43, 43, 43);
 
   li {
     margin: 16px 0px;
     font-weight: bold;
     text-align: center;
   }
-}
-}
+}}
+
 #gradientTopBottom {
   background-image: linear-gradient(rgb(77, 77, 77), rgb(255, 255, 255));
   width: 50%;

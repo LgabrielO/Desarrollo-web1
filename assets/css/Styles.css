@@ -14,7 +14,7 @@ html {
     html body h1 {
       font-size: 3.5em; }
     html body h2 {
-      font-size: 2.7em; }
+      font-size: 3.7em; }
     html body h3 {
       font-size: 2em; }
     html body h4 {
@@ -184,13 +184,16 @@ button {
     margin: 16px 0px;
     font-weight: bold; }
 
-.caracteristicas-us .container {
-  text-align: center;
-  padding: 250px 12px; }
-  .caracteristicas-us .container li {
-    margin: 16px 0px;
-    font-weight: bold;
-    text-align: center; }
+.caracteristicas-us {
+  background-color: #2b2b2b; }
+  .caracteristicas-us .container {
+    text-align: center;
+    padding: 250px 12px;
+    background-color: #2b2b2b; }
+    .caracteristicas-us .container li {
+      margin: 16px 0px;
+      font-weight: bold;
+      text-align: center; }
 
 #gradientTopBottom {
   background-image: linear-gradient(#4d4d4d, white);
@@ -251,11 +254,7 @@ form {
   background-image: linear-gradient(#4d4d4d, white);
   grid-template-columns: 50% 50%;
   grid-template-rows: 100px 70px auto 1fr 100px;
-  grid-template-areas: "header header"
- "navLeft navRight"
- "text text"
- "image image"
- "footer footer"; }
+  grid-template-areas: "header header" "navLeft navRight" "text text" "image image" "footer footer"; }
 
 @media (min-width: 850px) {
   header .container {
@@ -374,9 +373,7 @@ form {
   background-image: linear-gradient(#4d4d4d, white);
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 170px auto 100px;
-  grid-template-areas: "navLeft navLeft header header navRight navRight"
- "text text text image image image"
- "footer footer footer footer footer footer"; }
+  grid-template-areas: "navLeft navLeft header header navRight navRight" "text text text image image image" "footer footer footer footer footer footer"; }
 
 @media (min-width: 1200px) {
   .caracteristicas {
