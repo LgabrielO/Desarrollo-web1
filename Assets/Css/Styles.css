@@ -185,6 +185,7 @@ button {
     font-weight: bold; }
 
 .caracteristicas-us .container {
+  background-color: #2b2b2b;
   text-align: center;
   padding: 250px 12px; }
   .caracteristicas-us .container li {
