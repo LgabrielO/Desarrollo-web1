@@ -26,7 +26,7 @@ html {
 
 header {
   background-color: whitesmoke; }
-  header .p {
+  header p {
     font-size: 1.25em; }
   header .logo {
     margin: 0;
@@ -107,9 +107,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .card-puesto button {
+  .card-puestobutton {
     font-size: 1.75em; }
-  .card-puesto a {
+  .card-puestoa {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;

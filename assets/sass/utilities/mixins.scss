@@ -1,0 +1,25 @@
+@mixin bar ($area, $pTop, $pBot) {
+    grid-area: $area;
+    padding-top: $pTop;
+    padding-bottom: $pBot;
+}
+
+
+// MIXIN - Titulos y subitulos
+@mixin title ($align, $size, $pTop, $pBot){
+    font-family: "Days One", sans-serif;
+    color: #2e2c2c;
+    text-align: $align;
+    font-size: $size;
+    padding-top: $pTop;
+    padding-bottom: $pBot;
+}
+
+// SERVICIOS 
+@mixin service ($area, $pad, $border, $borderR, $marg) {
+    grid-area: $area;
+    padding: $pad;
+    border: $border;
+    border-radius: $borderR;
+    margin: $marg;
+}
