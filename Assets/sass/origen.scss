@@ -1,6 +1,7 @@
 @import "utilities/variable";
 @import "utilities/maps";
 @import "utilities/mixins";
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -24,33 +25,34 @@ html {
   scroll-behavior: smooth;
 
 
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 
-  h1 {
-    font-size: 3.5em;
-  }
+    h1 {
+      font-size: 3.5em;
+    }
 
-  h2 {
-    font-size: 3.7em;
-  }
-  h3 {
-    font-size: 2em;
-  }
+    h2 {
+      font-size: 3.7em;
+    }
 
-  h4 {
-    text-align: center;
-  }
+    h3 {
+      font-size: 2em;
+    }
 
-  ul {
-    list-style: none;
-  }
+    h4 {
+      text-align: center;
+    }
 
-  li {
-    font-size: 1.25em;
+    ul {
+      list-style: none;
+    }
+
+    li {
+      font-size: 1.25em;
+    }
   }
-}
 }
 
 //Header
@@ -487,6 +489,7 @@ form {
     h3 {
       margin-top: 0;
     }
+
     .carta {
       padding: 50px;
       background-size: 100% 150px;
@@ -494,30 +497,31 @@ form {
       background-position-y: 0;
       background-color: rgba(50, 50, 50, 1);
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }}
-
-  
-    .carta:first-child {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Producto\ 1.jpg");
     }
+  }
 
-    .carta:nth-child(2) {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Producto\ 2.jpeg");
-    }
 
-    .carta:nth-child(3) {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Granos\ de\ cafe.jpg");
-    }
-  
+  .carta:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Producto\ 1.jpg");
+  }
+
+  .carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Producto\ 2.jpeg");
+  }
+
+  .carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Granos\ de\ cafe.jpg");
+  }
+
 
   .nuestro-presupuesto-teria .presupuesto-teria {
     display: flex;
@@ -537,6 +541,7 @@ form {
     h3 {
       margin-top: 0;
     }
+
     .carta-teria {
       padding: 50px;
       background-size: 100% 150px;
@@ -544,30 +549,31 @@ form {
       background-position-y: 0;
       background-color: rgba(50, 50, 50, 1);
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  }}
-
-  
-    .carta-teria:first-child {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Chocolate.jpg");
     }
+  }
 
-    .carta-teria:nth-child(2) {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Donas.jpg");
-    }
 
-    .carta-teria:nth-child(3) {
-      background-image: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)),
-        url("./../img/Desayuno.jpg");
-    }
-  
+  .carta-teria:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Chocolate.jpg");
+  }
+
+  .carta-teria:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Donas.jpg");
+  }
+
+  .carta-teria:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("./../img/Desayuno.jpg");
+  }
+
 
   .caracteristicas {
     background-image: url("./../img/Logo.jpg");
@@ -624,6 +630,7 @@ form {
     background-position-x: calc(100vw - 800px);
   }
 }
+
 .caracteristicas-us {
   background-position-x: calc(100vw - 800px);
 }
