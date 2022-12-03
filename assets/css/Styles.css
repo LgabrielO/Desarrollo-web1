@@ -298,13 +298,6 @@ form {
   .nuestro-presupuesto.presupuesto {
     display: flex;
     justify-content: center; }
-    .nuestro-presupuesto.presupuesto .carta {
-      padding: 50px;
-      background-size: 100% 150px;
-      background-repeat: no-repeat;
-      background-position-y: 0;
-      background-color: #323232;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     .nuestro-presupuesto.presupuesto p {
       display: block;
       margin-bottom: 30px; }
@@ -312,22 +305,22 @@ form {
       font-size: 4em; }
     .nuestro-presupuesto.presupuesto h3 {
       margin-top: 0; }
-  .carta:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
-  .carta:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
-  .carta:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+  .carta {
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: #323232;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+    .carta:first-child {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
+    .carta:nth-child(2) {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
+    .carta:nth-child(3) {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
   .nuestro-presupuesto-teria .presupuesto-teria {
     display: flex;
     justify-content: center; }
-    .nuestro-presupuesto-teria .presupuesto-teria .carta-teria {
-      padding: 50px;
-      background-size: 100% 150px;
-      background-repeat: no-repeat;
-      background-position-y: 0;
-      background-color: #323232;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     .nuestro-presupuesto-teria .presupuesto-teria p {
       display: block;
       margin-bottom: 30px; }
@@ -335,31 +328,38 @@ form {
       font-size: 4em; }
     .nuestro-presupuesto-teria .presupuesto-teria h3 {
       margin-top: 0; }
-  .carta-teria:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
-  .carta-teria:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
-  .carta-teria:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
+  .carta-teria {
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: #323232;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+    .carta-teria:first-child {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+    .carta-teria:nth-child(2) {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+    .carta-teria:nth-child(3) {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
   .caracteristicas {
     background-image: url("./../img/Logo.jpg");
     background-repeat: no-repeat;
     background-size: 500px 400px;
     background-position: calc(100vw - 500px) 120px; }
-    .caracteristicas .container {
+    .caracteristicascontainer {
       text-align: initial; }
-    .caracteristicas h3 {
+    .caracteristicash3 {
       text-align: center;
       display: grid; }
-    .caracteristicas ul {
+    .caracteristicasul {
       margin-left: 100px; }
   .caracteristicas-us {
     background-color: #2b2b2b;
     height: 35rem; }
-    .caracteristicas-us h3 {
+    .caracteristicas-ush3 {
       font-size: 2em;
       color: blueviolet; }
-    .caracteristicas-us li {
+    .caracteristicas-usli {
       text-align: center;
       color: white; }
   footer .container {
