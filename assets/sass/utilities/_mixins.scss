@@ -9,7 +9,6 @@
     padding-bottom: $pBot;
 }
 
-// SERVICIOS 
 @mixin grid-container ($area, $pad, $border, $borderR, $marg) {
     grid-area: $area;
     padding: $pad;
