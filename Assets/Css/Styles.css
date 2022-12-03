@@ -26,7 +26,7 @@ html {
 
 header {
   background-color: whitesmoke; }
-  header .p {
+  headerp {
     font-size: 1.25em; }
   header .logo {
     margin: 0;
@@ -48,7 +48,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black; }
-  header a:hover {
+  header :hover {
     color: blueviolet; }
 
 main {
@@ -73,9 +73,9 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .card h1 {
+  .cardh1 {
     color: white; }
-  .card button {
+  .cardbutton {
     font-size: 1.75em; }
 
 button {
@@ -87,7 +87,7 @@ button {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: white;
   background-color: blueviolet; }
-  button :hover {
+  button:hover {
     background-color: #3a0130;
     transition: background-color 2s; }
   button a {
@@ -107,9 +107,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .card-puesto button {
+  .card-puestobutton {
     font-size: 1.75em; }
-  .card-puesto a {
+  .card-puestoa {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
@@ -127,55 +127,51 @@ button {
   background-color: #252525;
   color: white;
   text-align: center; }
-  .nuestro-presupuesto .container {
+  .nuestro-presupuestocontainer {
     padding: 150px 12px; }
-  .nuestro-presupuesto h2 {
+  .nuestro-presupuestoh2 {
     margin-top: 0;
     font-size: 3.2em; }
-  .nuestro-presupuesto .carta {
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px; }
-  .nuestro-presupuesto p {
+
+.carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px; }
+  .cartap {
     display: none; }
-
-.carta:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
-
-.carta:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
-
-.carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+  .carta:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
+  .carta:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
+  .carta:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
 
 .nuestro-presupuesto-teria {
   background-color: #252525;
   color: white;
   text-align: center; }
-  .nuestro-presupuesto-teria .container {
+  .nuestro-presupuesto-teriacontainer {
     padding: 150px 12px; }
-  .nuestro-presupuesto-teria h2 {
+  .nuestro-presupuesto-teriah2 {
     margin-top: 0;
     font-size: 3.2em; }
-  .nuestro-presupuesto-teria .carta-teria {
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px; }
-  .nuestro-presupuesto-teria p {
+
+.carta-teria {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px; }
+  .carta-teria p {
     display: none; }
-
-.carta-teria:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
-
-.carta-teria:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
-
-.carta-teria:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
+  .carta-teria:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+  .carta-teria:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+  .carta-teria:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
 
 .caracteristicas .container {
   text-align: center;
@@ -302,13 +298,6 @@ form {
   .nuestro-presupuesto.presupuesto {
     display: flex;
     justify-content: center; }
-    .nuestro-presupuesto.presupuesto .carta {
-      padding: 50px;
-      background-size: 100% 150px;
-      background-repeat: no-repeat;
-      background-position-y: 0;
-      background-color: #323232;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     .nuestro-presupuesto.presupuesto p {
       display: block;
       margin-bottom: 30px; }
@@ -316,6 +305,13 @@ form {
       font-size: 4em; }
     .nuestro-presupuesto.presupuesto h3 {
       margin-top: 0; }
+    .nuestro-presupuesto.presupuesto .carta {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: #323232;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
   .carta:first-child {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
   .carta:nth-child(2) {
@@ -325,13 +321,6 @@ form {
   .nuestro-presupuesto-teria .presupuesto-teria {
     display: flex;
     justify-content: center; }
-    .nuestro-presupuesto-teria .presupuesto-teria .carta-teria {
-      padding: 50px;
-      background-size: 100% 150px;
-      background-repeat: no-repeat;
-      background-position-y: 0;
-      background-color: #323232;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     .nuestro-presupuesto-teria .presupuesto-teria p {
       display: block;
       margin-bottom: 30px; }
@@ -339,6 +328,13 @@ form {
       font-size: 4em; }
     .nuestro-presupuesto-teria .presupuesto-teria h3 {
       margin-top: 0; }
+    .nuestro-presupuesto-teria .presupuesto-teria .carta-teria {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: #323232;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
   .carta-teria:first-child {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
   .carta-teria:nth-child(2) {
