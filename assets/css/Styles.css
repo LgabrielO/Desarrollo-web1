@@ -48,7 +48,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black; }
-  header a:hover {
+  header :hover {
     color: blueviolet; }
 
 main {
@@ -73,9 +73,9 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .card h1 {
+  .card .h1 {
     color: white; }
-  .card button {
+  .card .button {
     font-size: 1.75em; }
 
 button {
@@ -107,9 +107,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .card-puestobutton {
+  .card-puesto button {
     font-size: 1.75em; }
-  .card-puestoa {
+  .card-puesto a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
@@ -140,15 +140,12 @@ button {
     border-radius: 15px; }
   .nuestro-presupuesto p {
     display: none; }
-
-.carta:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
-
-.carta:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
-
-.carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
+  .nuestro-presupuesto .carta:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 1.jpg"); }
+  .nuestro-presupuesto .carta:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Producto 2.jpeg"); }
+  .nuestro-presupuesto .carta:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Granos de cafe.jpg"); }
 
 .nuestro-presupuesto-teria {
   background-color: #252525;
@@ -167,15 +164,12 @@ button {
     border-radius: 15px; }
   .nuestro-presupuesto-teria p {
     display: none; }
-
-.carta-teria:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
-
-.carta-teria:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
-
-.carta-teria:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
+  .nuestro-presupuesto-teria .carta-teria:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Chocolate.jpg"); }
+  .nuestro-presupuesto-teria .carta-teria:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Donas.jpg"); }
+  .nuestro-presupuesto-teria .carta-teria:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/Desayuno.jpg"); }
 
 .caracteristicas .container {
   text-align: center;
