@@ -52,7 +52,7 @@ header {
     color: blueviolet; }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(#4d4d4d, white); }
 
 .container {
@@ -131,7 +131,7 @@ button {
     padding: 150px 12px; }
   .nuestro-presupuesto h2 {
     margin-top: 0;
-    font-size: 3.2em; }
+    font-size: 2em; }
 
 .carta {
   background-position: center center;
@@ -377,3 +377,20 @@ form {
 
 .caracteristicas-us {
   background-position-x: calc(100vw - 800px); }
+
+.nuestro-presupuesto-teria {
+  height: auto; }
+  .nuestro-presupuesto-teria .container {
+    padding: 3rem; }
+
+.caracteristicas-teria {
+  height: 25vh;
+  text-align: center;
+  padding-top: 2%; }
+
+.nuestro-presupuesto .container {
+  padding: 3.5rem;
+  text-align: center; }
+
+.contact {
+  text-align: center; }
